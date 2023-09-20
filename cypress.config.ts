@@ -6,7 +6,7 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       return require('./cypress/plugins/index.js')(on, config)
     },
-    baseUrl: 'https://fil2023-73crka.netlify.app',
-    testIsolation: false,
+    baseUrl: 'https://google.com',
+    testIsolation: true,
   },
 })
